@@ -10,6 +10,10 @@
   <img src="https://raw.githubusercontent.com/github/explore/main/topics/mysql/mysql.png" width="120" alt="MySQL Logo" />
 </p>
 
+<a href="https://glama.ai/mcp/servers/@TickHaiJun/mysql-mcp-server">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@TickHaiJun/mysql-mcp-server/badge" alt="MySQL Server MCP server" />
+</a>
+
 ## 项目简介
 
 MCP MySQL Server 是一个基于 [@modelcontextprotocol/sdk](https://www.npmjs.com/package/@modelcontextprotocol/sdk) 的 MySQL 工具服务，支持 SQL 查询、表结构获取、连接检测等功能，适用于 AI 代理、自动化工具等场景。
@@ -76,23 +80,15 @@ MCP MySQL Server 是一个基于 [@modelcontextprotocol/sdk](https://www.npmjs.c
 - 限制参数数量，防止滥用
 - 禁用多语句执行
 
-
-
 ## 在 Cursor 中 验证 开发的 MCP Server 是否能运行
 ### Cursor 添加 MCP Server
 通过 `Cursor Settings` -> `MCP Add new global MCP server`，可以将 `MCP` 服务添加为全局可用。这意味着你配置的 MCP 服务将在所有项目中生效。
-
-
 
 **也可以只针对 项目级别 添加** 
 
 在项目的 `.cursor`目录下，新建一个 `mcp.json`文件进行配置，这样的设置只会对特定项目生效。
 
-
-
 ![](https://cdn.nlark.com/yuque/0/2025/png/428799/1749090499202-254f3d9f-c689-4f4e-a9ba-b485db140fa7.png)
-
-
 
 mcp server 的格式是如何呢
 
@@ -119,27 +115,16 @@ mcp server 的格式是如何呢
 }
 ```
 
-
-
 ### 查询数据库表和字段信息
 ![](https://cdn.nlark.com/yuque/0/2025/png/428799/1749092265793-599cf255-b8b2-4abf-945a-984df53ddff8.png)
-
-
-
-
 
 ### 查看当前数据库是否连接
 ### ![](https://cdn.nlark.com/yuque/0/2025/png/428799/1749092933734-a4473b61-74d2-4052-8826-a41454256729.png)
 
-
 ### 查询表里数据
 ![](https://cdn.nlark.com/yuque/0/2025/png/428799/1749093167008-16ae57ba-97fe-4943-b603-257456dd87d1.png)
 
-
-
 看到这里，是不是觉得很神奇？我们用自然语言描述需求，AI助手自动生成并执行SQL，然后分析结果给出结论。
-
-
 
 ## 依赖
 
