@@ -157,4 +157,4 @@ mcp server 的格式是如何呢
 
 ## 许可证
 
-ISC License
+[ISC License](https://github.com/TickHaiJun/mysql-mcp-server/blob/main/LICENSE)
